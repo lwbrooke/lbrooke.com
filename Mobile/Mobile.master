@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Mobile.master.cs" Inherits="Mobile_Mobile" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title><asp:ContentPlaceHolder id="TitlePlaceHolder" runat="server"/></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/_css/MobileStyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="logo">
+                <span>LB</span>
+                <span>lbrooke.com</span>
+                <div style="clear: both"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><asp:LinkButton ID="lbtnHome" runat="server" OnClick="lbtnHome_Click">Mobile Home</asp:LinkButton></li>
+                    <li>
+                        <h2>CSCD 379</h2>
+                        <ul>
+                            <li>
+                                <asp:LinkButton ID="lbtnAssignMobile" runat="server" OnClick="lbtnAssignMobile_Click">Mobile Pages</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="ArticlePlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <asp:ContentPlaceHolder ID="FooterPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:Label runat="server" ID="lblCallme">Call me: <a href="tel:+18888218218">1-888-821-8218</a></asp:Label>
+        </footer>
+    </form>
+</body>
+</html>

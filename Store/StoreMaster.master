@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="StoreMaster.master.cs" Inherits="Store_StoreMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder id="TitlePlaceHolder" runat="server"/></title>
+    <link href="../_css/StoreStyle.css" type="text/css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <article>
+                <nav>
+                    <ul>
+                        <li><a href="/Store">BattleMechs</a></li>
+                        <li><a href="ShoppingCart.aspx">Cart</a></li>
+                        <li><a href="../Default.aspx">Home</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </header>
+        <div id="mainContent">
+            <article>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </article>
+        </div>
+        <footer>
+            <article>
+                lbrooke.com | Store
+            </article>
+        </footer>
+        <div class="adRotator"><asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/Store/StoreAds.xml" /></div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,291 @@
+﻿/*
+    white:      #E9E9E9
+    light blue: #4EB1BA
+    dark blue:  #222930
+*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+}
+
+/*Global Styles------------------------------------------------------------------------------------------------------------------*/
+
+html {
+    background: #222930;
+    color: #E9E9E9;
+    font-size: 1.1em;
+    font-family: Arial;
+}
+
+article {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 360px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Basic layout styles -----------------------------------------------------------------------------------------------------------*/
+
+/* Content region styles -----------------------------------------------------------------------------------------------------------*/
+
+/*mainContent styles*/
+
+#mainContent {
+    text-align: center;
+}
+
+/*link styles*/
+
+a {
+    text-decoration: none;
+    color: #222930;
+}
+
+a:hover {    
+    color: #E9E9E9;
+}
+
+/*button styles*/
+
+input[type="submit"], select {
+    padding: 5px;
+    background: #4EB1BA;
+    border-radius: 10px;
+    border: none;
+    color: #222930;
+}
+
+input[type="submit"]:hover {
+    color: #E9E9E9;
+}
+
+/*header styles*/
+header {
+    border-bottom: 20px solid #4EB1BA;
+}
+
+header article {
+    position: relative;
+    height: 195px;
+    background-image: url("../_images/lbrooke.com-logo-store.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/*nav styles*/
+
+nav {
+    float: right;
+    margin: 135px 0 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 5px;
+    background: #4EB1BA;
+    border-radius: 10px;
+    color: #222930;
+}
+
+nav ul ul {
+    visibility:hidden;
+    position:absolute;
+    background: #4EB1BA;
+    border: 1px solid #222930;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+}
+
+/*footer styles*/
+
+footer {
+    background: #4EB1BA;
+    color: #222930;
+    padding: 15px;
+    text-align: center;
+}
+
+/*adRotator styles*/
+
+.adRotator {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.adRotator img {
+    max-width: 100%;
+    min-width: 360px;
+}
+
+/*table styles*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+td, th {
+    margin: 0;
+    padding: 5px;
+}
+
+.itemCell {
+    border: 1px solid #E9E9E9;
+}
+
+.finalCell {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/*image styles*/
+
+.itemThumbNail {
+    margin: 20px 10px;
+    padding: 5px;
+    display: inline-block;
+    border-top: 3px double #4EB1BA;
+    border-bottom: 3px double #4EB1BA;
+}
+
+.itemThumbNail img, .itemThumbNail span {
+    display: block;
+}
+
+.largeImage {
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px 5px;
+    max-width: 100%;
+}
+
+/*errorMessage styles*/
+
+.errorMessage {
+    display: block;
+    padding: 20px;
+    color: red;
+}
+
+/*validator styles*/
+
+.validator {
+    display: inline;
+    color: red;
+}
+
+/*page-specific main content styles -----------------------------------------------------------------------------------------------------------*/
+
+/*Details styles*/
+
+.details {
+    vertical-align: top;
+}
+
+.details div {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+    min-width: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.details p {
+    padding: 5px 0 10px;
+    font-size: 1.1em;
+}
+
+.details select, .details input {
+    margin: 5px 5px 5px 0 ;
+}
+
+.details span {
+    display: block;
+}
+
+/*ShoppingCart styles*/
+
+.cart {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+.cart table {
+    text-align: center;
+}
+
+/*CheckOut styles*/
+
+div[id$="orderSummaryPanel"] {
+    display: inline-block;
+    padding: 5px;
+}
+
+div[id$="orderSummaryPanel"] div {
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+}
+
+div[id$="orderSummaryPanel"] span {
+    display: block;
+    padding: 5px;
+}
+
+div[id$="shippingInfoPanel"] {
+    display: inline-block;
+    padding: 5px;
+}
+
+div[id$="shippingInfoPanel"] ul, div[id$="shippingInfoPanel"] div {
+    display: inline-block;
+    text-align: left;
+}
+
+div[id$="shippingInfoPanel"] li span {
+    min-width: 55px;
+    display: inline-block;
+}
+
+div[id$="shippingInfoPanel"] span, div[id$="shippingInfoPanel"] input {
+    line-height: 1.5em;
+}
+
+div[id$="buttonGroup"] {
+    padding: 5px 0 10px;
+    text-align: left;
+}
