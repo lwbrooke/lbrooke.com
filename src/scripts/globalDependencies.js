@@ -5,9 +5,10 @@ var dependencies = [];
 // libraries
 
 import 'angular';
-
 import 'angular-ui-router';
 
+import 'angular-aria';
+import 'angular-animate';
 import angularMaterial from 'angular-material';
 dependencies.push(angularMaterial);
 
