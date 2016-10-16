@@ -1,6 +1,6 @@
 <header>
     <md-toolbar class="md-toolbar-tools" layout="row" layout-padding>
-        <h1><a ng-href="/">lbrooke.com</a></h1>
+        <h1><a ng-href="/">{{siteName}}</a></h1>
         <md-list layout="row" hide-xs>
             <md-list-item ng-repeat="item in nav.items">
                 <md-button name="{{item.name}}" ui-sref="{{item.sref}}">{{item.name}}</md-button>
