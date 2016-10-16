@@ -2,11 +2,11 @@
     <md-divider></md-divider>
     <br/>
     <md-content layout="column" layout-align="center center">
-        <small>Logan Brooke</small>
+        <small>{{author}}</small>
         <md-content layout="row" layout-padding>
-            <a ng-href="https://www.facebook.com/logan.brooke.3"><img ng-src="/img/FB-f-Logo__blue_50.png" class="img-circle"/></a>
-            <a ng-href="https://github.com/lwbrooke"><img ng-src="/img/GitHub-Mark-32px.png" class="img-circle"/></a>
-            <a ng-href="https://www.linkedin.com/in/loganwbrooke"><img ng-src="/img/InBug-30px-R.png" class="img-circle"/></a>
+            <a ng-if="!!facebookLink" ng-href="{{facebookLink}}"><img ng-src="/img/FB-f-Logo__blue_50.png" class="img-circle"/></a>
+            <a ng-if="!!githubLink" ng-href="{{githubLink}}"><img ng-src="/img/GitHub-Mark-32px.png" class="img-circle"/></a>
+            <a ng-if="!!linkedinLink" ng-href="{{linkedinLink}}"><img ng-src="/img/InBug-30px-R.png" class="img-circle"/></a>
         </md-content>
     </md-content>
 </footer>

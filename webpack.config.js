@@ -164,7 +164,15 @@ module.exports = function makeWebpackConfig () {
      * Reference: http://webpack.github.io/docs/configuration.html#plugins
      * List: http://webpack.github.io/docs/list-of-plugins.html
      */
-    config.plugins = [];
+    config.plugins = [
+        new webpack.DefinePlugin({
+            AUTHOR: JSON.stringify('Logan Brooke'),
+            FACEBOOK_LINK: JSON.stringify('https://www.facebook.com/logan.brooke.3'),
+            GITHUB_LINK: JSON.stringify('https://github.com/lwbrooke'),
+            LINKEDIN_LINK: JSON.stringify('https://www.linkedin.com/in/loganwbrooke'),
+            SITE_NAME: JSON.stringify('lbrooke.com'),
+        })
+    ];
 
     // Skip rendering index.html in test mode
     if (!isTest) {
