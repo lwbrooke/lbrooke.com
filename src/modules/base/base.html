@@ -1,7 +1,34 @@
-<div layout="column" layout-fill>
-    <header-block></header-block>
+<header>
+    <md-toolbar layout="row" class="md-toolbar-tools">
+        <md-button hide-gt-sm ng-click="toggleLeftMenu()" class="md-icon-button">
+            <md-icon md-svg-src="img/ic_menu_white_36px.svg"></md-icon>
+        </md-button>
+        <h1><md-button ng-href="/">{{siteName}}</md-button></h1>
+    </md-toolbar>
+</header>
+<main layout="row">
+    <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left" flex>
+        <md-list>
+            <md-list-item ng-repeat="item in nav.items">
+                <md-button name="{{item.name}}" ui-sref="{{item.sref}}" flex ng-click="toggleLeftMenu()">
+                    {{item.name}}
+                </md-button>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
     <md-content flex layout-padding>
         <ui-view></ui-view>
     </md-content>
-    <footer-block></footer-block/>
-</div>
+</main>
+<footer>
+    <md-divider></md-divider>
+    <br/>
+    <md-content layout="column" layout-align="center center">
+        <small>{{author}}</small>
+        <md-content layout="row" layout-padding>
+            <a ng-if="!!facebookLink" ng-href="{{facebookLink}}"><img ng-src="/img/FB-f-Logo__blue_50.png" class="img-circle"/></a>
+            <a ng-if="!!githubLink" ng-href="{{githubLink}}"><img ng-src="/img/GitHub-Mark-32px.png" class="img-circle"/></a>
+            <a ng-if="!!linkedinLink" ng-href="{{linkedinLink}}"><img ng-src="/img/InBug-30px-R.png" class="img-circle"/></a>
+        </md-content>
+    </md-content>
+</footer/>
