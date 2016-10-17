@@ -2,9 +2,6 @@
 
 const name = 'baseController';
 function controller ($scope, $mdSidenav, navigationRegistrar, constants) {
-    $scope.toggleLeftMenu = function() {
-        $mdSidenav('left').toggle();
-    }
     $scope.current = navigationRegistrar.getActive();
     $scope.nav = navigationRegistrar.getItems();
 
@@ -13,6 +10,10 @@ function controller ($scope, $mdSidenav, navigationRegistrar, constants) {
     $scope.githubLink = constants.githubLink;
     $scope.linkedinLink = constants.linkedinLink;
     $scope.siteName = constants.siteName;
+
+    $scope.toggleLeftMenu = function() {
+        $mdSidenav('left').toggle();
+    }
 }
 
 export { name, controller };
