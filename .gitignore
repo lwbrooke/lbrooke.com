@@ -103,3 +103,6 @@ coverage
 
 # environment
 env
+
+# Pelican
+output/
