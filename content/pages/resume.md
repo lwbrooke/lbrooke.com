@@ -1,13 +1,36 @@
 Title: Resume
 
 # Work Experience
+## OpenMail
+- Position: Software Engineer
+- Duration: August 2016 to present
+
+InfoSpace was acquired by OpenMail in August of 2016, and I continue in the same role.
+
+## InfoSpace
+- Position: Software Engineer
+- Duration: September 2015 to August 2016
+
+Hired after my internship, I transitioned into writing components for a business initiative that heavily used microservice architecture.
+I generally made contributions primarily primarily on the back end and api layers, but also occasionaly worked on front end code.
+
+## InfoSpace
+- Position: Intern Software Engineer
+- Duration: April 2015 to September 2015
+
+This was my first real job out of college. As the name suggests, my role was primarily to learn and make contributions under the guidance of senior developers.
+I worked on a sub-team of four people to create an internal service utilizing AWS Simple Workflow, AWS SQS, and MongoDB, written in C#.
+
 ## Independent Contractor
-### February 2015 to April 2015
-I am the primary mobile developer on this project, of which my portion handles communication between an Android Appcelerator app and an Arduino device via Bluetooth. In addition, the JavaScript based app uploads the events gathered by the Arduino device to an AWS database via a Node.js REST API. I further demonstrated problem solving skills by resolving several issues with prior iterations of the Arduino code.
+- Duration: February 2015 to April 2015
+
+I was the primary mobile developer on this project, of which my portion handles communication between an Android Appcelerator app and an Arduino device via Bluetooth. In addition, the JavaScript based app uploads the events gathered by the Arduino device to an AWS database via a Node.js REST API. I further demonstrated problem solving skills by resolving several issues with prior iterations of the Arduino code.
 
 ## Dealers Auto Auction NW
-### Summers from 2011 through 2014
-Position: Check-In Level One – Entered incoming inventory into the computer system, logged the entry and exit of vehicles and personnel, patrolled for security breaches on the lot and in the fence, acted as first line of customer service, in person and on the phone.
+- Duration: Summers from 2011 through 2014
+- Position: Check-In Level One
+
+Entered incoming inventory into the computer system, logged the entry and exit of vehicles and personnel, patrolled for security breaches on the lot and in the fence, acted as first line of customer service, in person and on the phone.
 
 # Personal Projects
 ## Mobile Bartender App for Windows Phone
@@ -43,51 +66,49 @@ This app functions on the principle that the user has ingredients to make drinks
 This project entailed creating the full logic for a classic pinball arcade machine. The machine had been retrofitted with an Arduino Mega 2560. I worked with one other person on this project, and while there was no clear division of labor, the both of us were present and contributing at all times when working on the project. We were supplied with a C++ library to ease the usage of the physical components of the machine, though we had done this by hand in previous projects. Other than in using the provided library, we were instructed to write C style code. The program could accept up to 4 players, with 3 balls each. Lights would indicate the ball number, current player, current bonuses, and current score. At the end, the high score would be displayed, and kept until the machine was turned off.
 
 # Skills and Technological Knowledge
-Items that I feel I am particurly adept at are denoted with a &#x2605;.
-
 ## Languages
 - Bash
 - C#/.NET 4.5
 - C
 - CSS
-- Elasticsearch DSL &#x2605;
+- Elasticsearch DSL
 - HTML
 - Java
-- JavaScript &#x2605;
+- JavaScript
 - Objective C
-- Python 3 &#x2605;
+- Python 3
 - SQL
 
 ## Frameworks
 - Angular
 - Bootstrap
 - Entity Framework 6
-- Flask &#x2605;
-- PySpark &#x2605;
+- Flask
+- PySpark
 
 ## Databases
-- Elasticsearch &#x2605;
+- Elasticsearch
 - MongoDB
 - PostgreSQL
 - Redis
 
 ## Amazon Web Services
 - EC2
-- ECS &#x2605;
-- EMR &#x2605;
+- ECS
+- EMR
 - Firehose
 - S3
-- SNS &#x2605;
-- SQS &#x2605;
+- SNS
+- SQS
 
 ## Other Technologies
 - Arduino
-- Docker &#x2605;
-- git &#x2605;
+- Docker
+- git
 
 ## Buzzwords
 - CI/CD
 - Distributed Systems
 - Embedded Systems
-- Microservice Architecture &#x2605;
+- Microservice Architecture
 - REST

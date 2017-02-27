@@ -38,7 +38,11 @@ GITHUB_URL = 'https://github.com/lwbrooke'
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['extra/favicon.ico']
+STATIC_PATHS = [
+    'extra/favicon.ico',
+    'images'
+]
+
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
