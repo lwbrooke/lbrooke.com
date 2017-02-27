@@ -6,6 +6,8 @@ AUTHOR = 'Logan Brooke'
 SITENAME = 'lbrooke.com'
 SITEURL = ''
 
+THEME = 'notmyidea'
+
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
