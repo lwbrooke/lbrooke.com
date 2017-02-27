@@ -106,3 +106,4 @@ env
 
 # Pelican
 output/
+*.pid
