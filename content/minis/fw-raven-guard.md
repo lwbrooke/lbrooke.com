@@ -2,7 +2,7 @@
 title: "Forge World Raven Guard"
 date: 2021-05-03T21:15:15-07:00
 featured_image: "img/fwrg/rg-front.jpg"
-draft: true
+draft: false
 ---
 
 Five more marines to fill out my first squad of ten MK VI Tactical marines!
