@@ -1,8 +1,9 @@
 ---
-title: "Rg Vanguard Vets"
+title: "Raven Guard Vanguard Vets"
 date: 2020-10-23T17:18:00-07:00
 featured_image: "img/vanguard-vets/new-vets.jpg"
-draft: true
+tags: [Hobbies, Tabletop Wargaming, Raven Guard, Kill Team, Warhammer 40k]
+draft: false
 ---
 
 They were primed with Corax White spray for all the white pieces and Chaos Black spray

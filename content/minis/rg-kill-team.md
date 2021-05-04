@@ -2,7 +2,8 @@
 title: "Raven Guard Kill Team"
 date: 2020-10-10T01:34:00-07:00
 featured_image: "img/rgkt/first-team.jpg"
-draft: true
+tags: [Hobbies, Tabletop Wargaming, Raven Guard, Kill Team, Warhammer 40k]
+draft: false
 ---
 
 The Raven Guard kill team is complete! The big theme around this team is bringing some big

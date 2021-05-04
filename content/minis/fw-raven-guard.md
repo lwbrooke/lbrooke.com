@@ -2,6 +2,7 @@
 title: "Forge World Raven Guard"
 date: 2021-04-08T23:05:00-07:00
 featured_image: "img/fwrg/rg-front.jpg"
+tags: [Hobbies, Tabletop Wargaming, Raven Guard, Kill Team, Warhammer 40k]
 draft: false
 ---
 
