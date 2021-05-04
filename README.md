@@ -4,14 +4,23 @@ My personal website
 
 ## Technologies
 
-- python, javascript, html, css, make
-- pelican
+- hugo
+    - hugo-theme-diary
+- firebase
+
+## First time setup
+
+- install hugo
+- install firebase cli
+    - login to gcp account
 
 ## Install and run development server
 
 - git clone https://github.com/lwbrooke/lbrooke.com
 - cd lbrooke.com
-- enter virtualenv
-- pip install -r requirements.txt
-- make devserver
-- navigate to http://localhost:8000
+- `git submodule update --remote --merge`
+- `hugo serve -D`
+
+## Deployment
+
+- `hugo && firebase deploy`
