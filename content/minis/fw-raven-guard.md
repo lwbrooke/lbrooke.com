@@ -1,6 +1,6 @@
 ---
 title: "Forge World Raven Guard"
-date: 2021-05-03T21:15:15-07:00
+date: 2021-04-08T23:05:00-07:00
 featured_image: "img/fwrg/rg-front.jpg"
 draft: false
 ---
