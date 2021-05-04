@@ -20,6 +20,10 @@ My personal website
 - cd lbrooke.com
 - `git submodule update --remote --merge`
 - `hugo serve -D`
+- navigate to http://localhost:1313
+
+## Adding a new page
+- `hugo new path/to-page.md`
 
 ## Deployment
 
